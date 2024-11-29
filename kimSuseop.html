@@ -3,182 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>영화 소품용 시범 웹사이트</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-size: 14px;
-            line-height: 1.6;
-            color: #636363;
-            font-family: "돋움";
-            width: 100%;
-            background: #ffffff;
-        }
-        #header {
-            background: rgba(0, 0, 0, 0.5);
-            color: #ffffff;
-            padding: 15px;
-            text-align: left;
-            font-size: 18px;
-            position: absolute;
-            top: 0;
-            left: 20px;
-            width: calc(100% - 40px);
-            font-weight: bold;
-            z-index: 1002;
-        }
-        #nav {
-            background: #0056b3;
-            overflow: hidden;
-            text-align: center;
-            padding-top: 60px;
-        }
-        #nav a {
-            display: inline-block;
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        #nav a:hover {
-            background-color: #003366;
-        }
-        #banner {
-            display: none;
-        }
-        #content_layer {
-            padding: 40px;
-            text-align: left;
-            margin: 0 auto;
-            width: 80%;
-            background: #f8f8f8;
-            border-radius: 8px;
-            box-sizing: border-box;
-        }
-        #box_layer {
-            background: #f8f8f8;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 1px solid #ddd;
-        }
-        #list_layer {
-            padding: 20px;
-            text-align: left;
-            margin: 0 auto;
-            width: 80%;
-        }
-        #list_layer table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        #list_layer table, #list_layer th, #list_layer td {
-            border: 1px solid #ddd;
-        }
-        #list_layer th, #list_layer td {
-            padding: 10px;
-            text-align: center;
-        }
-        #list_layer th {
-            background-color: #f2f2f2;
-        }
-        #list_layer .pagination {
-            text-align: center;
-            margin-top: 20px;
-        }
-        #action_layer {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 300px;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            z-index: 1001;
-        }
-        #hidden_layer {
-            display: none;
-        }
-        #overLayer {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            display: none;
-            z-index: 1000;
-        }
-        iframe {
-            border: 0;
-            width: 100%;
-            height: 400px;
-            margin-top: 20px;
-        }
-        #footer {
-            background: #f8f8f8;
-            padding: 20px;
-            text-align: center;
-            font-size: 12px;
-            color: #333;
-            border-top: 1px solid #ddd;
-        }
-        #footer .footer-nav {
-            margin-bottom: 10px;
-        }
-        #footer .footer-nav a {
-            margin: 0 10px;
-            color: #0056b3;
-            text-decoration: none;
-        }
-        #footer .footer-nav a:hover {
-            text-decoration: underline;
-        }
-        #footer .social-icons a {
-            margin: 0 5px;
-            color: #333;
-            text-decoration: none;
-        }
-        #footer .social-icons a:hover {
-            color: #0056b3;
-        }
-        button {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        #sidebar {
-            float: left;
-            width: 25%;
-            padding: 20px;
-            box-sizing: border-box;
-            text-align: left;
-        }
-        #main_content {
-            float: right;
-            width: 70%;
-            padding: 20px;
-            box-sizing: border-box;
-            text-align: left;
-        }
-        #clearfix {
-            clear: both;
-        }
-        #image_full {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>김수섭 장학기금 안내</title>
+    <link rel="stylesheet" href="style.css"> <!-- 동일한 스타일을 적용하기 위해 CSS 파일 연결 가능 -->
 </head>
 <body>
     <div id="header">
@@ -194,14 +20,12 @@
         <a href="#">자료실</a>
         <a href="#">학과게시판</a>
     </div>
-
     <div id="content_layer">
         <img id="image_full" src="https://i.imgur.com/bbSrcdC.jpg" alt="school">
         <div id="clearfix"></div>
         <div id="sidebar">
             <h2 style="font-weight:bold;">학과게시판</h2>
             <ul>
-                
                 <li><a href="#">공지사항</a></li>
                 <li><a href="#">취업·알바·교육봉사</a></li>
                 <li><a href="#">발전기금 소식</a></li>
@@ -213,160 +37,18 @@
             <h3>1. 선발 인원</h3>
             <p>선발인원: 1명</p>
             <h3>2. 장학금액 및 지급인원</h3>
-            <p>장학금액: 3,406,000원(각 대학 등록금액 기준)</p>
+            <p>장학금액: 3,406,000원 (각 대학 등록금액 기준)</p>
             <h3>3. 선발 방법 및 기준</h3>
-            <p>선발방법: 코로나, 수해, 기타 사정 등을 고려하여 정규 학기 재학생에 한하여 장학생 선발<br>
+            <p>선발방법: 코로나, 수해, 기타 사정을 고려하여 정규 학기 재학생에 한하여 장학생 선발<br>
                선발기준: 직전 학기 3.3 이상인 학생, 이전 학기 F 학점이 없는 학생</p>
             <h3>4. 제출 방법</h3>
             <p>첨부한 신청서를 englishedu@hufs.ac.kr 과사 이메일로 제출<br>
-               제출기한: 10/31(월) 9:00</p>
+               제출기한: 10/31 (월) 9:00</p>
             <h3>5. 기타 사항</h3>
             <p>본 장학금은 등록금 범위를 초과하여 지급할 수 있도록 하며, 생활비성 장학금으로 지급함.</p>
         </div>
         <div id="clearfix"></div>
     </div>
-
-    <div id="list_layer">
-        <table>
-            <thead>
-                <tr>
-                    <th>번호</th>
-                    <th>제목</th>
-                    <th>작성자</th>
-                    <th>조회수</th>
-                    <th>작성일</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>37</td>
-                    <td><b>2024-2 사범대학 원격강좌운영 안내</b></td>
-                    <td>관리자</td>
-                    <td>9201</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>36</td>
-                    <td><b>2024학년도 영어교육과 교수 장학금 신청 안내</b></td>
-                    <td>관리자</td>
-                    <td>4263</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>35</td>
-                    <td><b>2024-2학기 사범대학 원격강좌운영 안내</b></td>
-                    <td>관리자</td>
-                    <td>4358</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>34</td>
-                    <td><b>2024-2 사범대학 원격강좌운영 선발 안내</b></td>
-                    <td>관리자</td>
-                    <td>7236</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>33</td>
-                    <td><b>2024-2 신.편입생 국가장학금 신청 안내</b></td>
-                    <td>관리자</td>
-                    <td>4774</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>32</td>
-                    <td><b>※ 영어교육과 교수 장학금 신청 안내(기간연장)</b></td>
-                    <td>관리자</td>
-                    <td>3779</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>31</td>
-                    <td><a href="kimSuseop.html"><b>2024학년도 2학기 김수섭 장학기금 장학생 선발 안내</b></a></td>
-                    <td>관리자</td>
-                    <td>4165</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>30</td>
-                    <td><b>2024학년도 2학기 송정환 장학기금 장학생 신청</b></td>
-                    <td>관리자</td>
-                    <td>3857</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>29</td>
-                    <td><b>2024학년도 1학기 사범대학 원격강좌장학금 선발 안내</b></td>
-                    <td>관리자</td>
-                    <td>9306</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>28</td>
-                    <td><b>**영어교육과 교수 장학금 신청 안내**</b></td>
-                    <td>관리자</td>
-                    <td>10585</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>27</td>
-                    <td><b>2024-2 농림축산식품부 장학생 선발공고</b></td>
-                    <td>관리자</td>
-                    <td>3616</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>26</td>
-                    <td><b>영어교육과 교수 장학금 신청 안내(~10/8)</b></td>
-                    <td>관리자</td>
-                    <td>3894</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>25</td>
-                    <td><b>※신입생 장학금 신청 안내(~9/23)</b></td>
-                    <td>관리자</td>
-                    <td>3395</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>24</td>
-                    <td><b>2024-2 특성화(코로나특별) 장학금 추가 지급 안내</b></td>
-                    <td>관리자</td>
-                    <td>4782</td>
-                    <td>2024-4-6</td>
-                </tr>
-                <tr>
-                    <td>23</td>
-                    <td><b>2024학년도 영어교육과 교수 장학금 신청 안내</b></td>
-                    <td>관리자</td>
-                    <td>3009</td>
-                    <td>2024-4-6</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="pagination">
-            <a href="#">처음으로</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">다음</a>
-        </div>
-    </div>
-
-    <div id="box_layer">
-        <h1>시범 웹사이트</h1>
-        <p>이 웹사이트는 영화 소품용으로 만들어졌습니다.</p>
-        <button onclick="showLayer()">액션 레이어 열기</button>
-    </div>
-
-    <div id="action_layer">
-        <p>이곳은 액션 레이어입니다!</p>
-        <button onclick="hideLayer()">닫기</button>
-    </div>
-    <div id="hidden_layer"></div>
-    <div id="overLayer" onclick="hideLayer()"></div>
-
-    <iframe name="action_frame_bbs" src="https://example.com" scrolling="no"></iframe>
 
     <div id="footer">
         <div class="footer-nav">
@@ -381,25 +63,5 @@
             <a href="#"><i class="fa fa-youtube"></i> YouTube</a>
         </div>
     </div>
-
-    <script>
-        function showLayer(layerId) {
-            if(layerId) {
-                document.getElementById(layerId).style.display = 'block';
-                document.getElementById('content_layer').style.display = 'none';
-            }
-            document.getElementById('action_layer').style.display = 'block';
-            document.getElementById('overLayer').style.display = 'block';
-        }
-        
-        function hideLayer(layerId) {
-            if(layerId) {
-                document.getElementById(layerId).style.display = 'none';
-                document.getElementById('content_layer').style.display = 'block';
-            }
-            document.getElementById('action_layer').style.display = 'none';
-            document.getElementById('overLayer').style.display = 'none';
-        }
-    </script>
 </body>
 </html>
