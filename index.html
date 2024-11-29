@@ -163,7 +163,7 @@
             text-align: left;
         }
         #main_content {
-            float: left;
+            float: right;
             width: 70%;
             padding: 20px;
             box-sizing: border-box;
@@ -171,6 +171,10 @@
         }
         #clearfix {
             clear: both;
+        }
+        #image_full {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -190,7 +194,16 @@
     </div>
 
     <div id="content_layer">
-        <img src="https://i.imgur.com/bbSrcdC.jpg" alt="school" style="width:100%; height:auto; margin-bottom:20px;">
+        <img id="image_full" src="https://i.imgur.com/bbSrcdC.jpg" alt="school">
+        <div id="clearfix"></div>
+        <div id="sidebar">
+            <h2 style="font-weight:bold;">학과게시판</h2>
+            <ul>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">취업·알바·교육봉사</a></li>
+                <li><a href="#">발전기금 소식</a></li>
+            </ul>
+        </div>
         <div id="main_content">
             <p>영어교육과 교수 장학금 신청 안내</p>
             <h3>1. 목적</h3>
@@ -213,14 +226,6 @@
             <h3>5. 제출방법</h3>
             <p>가. 신청기간: 2024년 9월 28일(월) 09:00 ~ 10월 8일(목) 17:00</p>
             <p>나. 제출방법: 영어교육과 학과사무실 방문 또는 이메일 제출</p>
-        </div>
-        <div id="sidebar">
-            <h2 style="font-weight:bold;">학과게시판</h2>
-            <ul>
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">취업·알바·교육봉사</a></li>
-                <li><a href="#">발전기금 소식</a></li>
-            </ul>
         </div>
         <div id="clearfix"></div>
     </div>
