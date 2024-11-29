@@ -200,6 +200,7 @@
         <div id="sidebar">
             <h2 style="font-weight:bold;">학과게시판</h2>
             <ul>
+                <li><a href="#" onclick="showLayer('kimBuseopPage')">2024학년도 2학기 김수섭 장학기금 장학생 선발 안내</a></li>
                 <li><a href="#">공지사항</a></li>
                 <li><a href="#">취업·알바·교육봉사</a></li>
                 <li><a href="#">발전기금 소식</a></li>
@@ -290,14 +291,14 @@
                 </tr>
                 <tr>
                     <td>31</td>
-                    <td><a href="#" onclick="showLayer('kimBuseopPage')"><b>2024학년도 2학기 김부섭 장학기급 장학생 선발 안내</b></a></td>
+                    <td><a href="#" onclick="showLayer('kimBuseopPage')"><b>2024학년도 2학기 김수섭 장학기금 장학생 선발 안내</b></a></td>
                     <td>관리자</td>
                     <td>4165</td>
                     <td>2024-4-6</td>
                 </tr>
                 <tr>
                     <td>30</td>
-                    <td><b>2024학년도 2학기 송중 장학기금 장학생 신청</b></td>
+                    <td><b>2024학년도 2학기 송정환 장학기금 장학생 신청</b></td>
                     <td>관리자</td>
                     <td>3857</td>
                     <td>2024-4-6</td>
@@ -394,6 +395,7 @@
         function showLayer(layerId) {
             if(layerId) {
                 document.getElementById(layerId).style.display = 'block';
+                document.getElementById('content_layer').style.display = 'none';
             }
             document.getElementById('action_layer').style.display = 'block';
             document.getElementById('overLayer').style.display = 'block';
@@ -402,6 +404,7 @@
         function hideLayer(layerId) {
             if(layerId) {
                 document.getElementById(layerId).style.display = 'none';
+                document.getElementById('content_layer').style.display = 'block';
             }
             document.getElementById('action_layer').style.display = 'none';
             document.getElementById('overLayer').style.display = 'none';
@@ -418,5 +421,3 @@
         </div>
     </body>
 </html>
-
-
